@@ -1,0 +1,15 @@
+package com.Testcases;
+
+public class exampleTests {
+	
+	@Test(expected = IllegalStateException.class)
+	public void lattesRequiresMilk()
+	{
+		Cafe cafe = new Cafe();
+		cafe.restockBeans(7);
+		
+		cafe.bew(CoffeeType.Latte);
+		
+	}
+	
+}

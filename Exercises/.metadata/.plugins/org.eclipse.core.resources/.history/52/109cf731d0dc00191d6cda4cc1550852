@@ -1,0 +1,24 @@
+package com.Testcases;
+
+import com.pages.LoginPage;
+
+//add junit or testng to dependencies
+//pass and username should come from excel sheet
+
+
+public class VerifyLogin {
+
+	@Test
+	public void verifyValidLogin() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maxmize();
+		driver.get("www.demosite.com");
+		
+		LoginPage login = new LoginPage(driver);
+		login.typeUserName("admin");
+		login.typePassword("pass");
+		login.clickOnLoginButton();
+		driver.quit();
+	}
+}

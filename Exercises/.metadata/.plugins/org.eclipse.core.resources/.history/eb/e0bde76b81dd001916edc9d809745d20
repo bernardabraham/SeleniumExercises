@@ -1,0 +1,17 @@
+package com.Testcases;
+
+public class exampleTests {
+	
+	//test that checks if you do it wrong you get an error
+	
+	@Test(expected = IllegalStateException.class)
+	public void lattesRequiresMilk()
+	{
+		Cafe cafe = new Cafe();
+		cafe.restockBeans(7);
+		
+		cafe.bew(CoffeeType.Latte);
+		
+	}
+	
+}

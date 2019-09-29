@@ -1,0 +1,36 @@
+package com.pages;
+
+//this class will store all locators and methods for login page
+//import dependencies etc
+
+public class LoginPage {
+
+	By username = By.id("user_login");
+	By password = By.xpath();
+	By loginButton = By.name("wp=submit");
+	
+	
+	public LoginPage(Webdriver driver) {
+		
+		this.driver=driver; 
+		
+	}
+	
+public void typeUserName() {
+		
+		driver.findElement(username).sendKeys("admin");
+		
+	}
+
+public void typePassword() {
+	
+	driver.findElement(password).sendKeys("pass");
+	
+}
+
+public void clickOnLoginButton() {
+	
+	driver.findElement(loginButton).click();
+	
+}
+}

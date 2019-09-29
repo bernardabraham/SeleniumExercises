@@ -1,0 +1,50 @@
+package qa.eter;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import junit.framework.Assert;
+
+public class AppTest {
+  private WebDriver driver;
+  private Map<String, Object> vars;
+  JavascriptExecutor js;
+  @Before
+  public void setUp() {
+    driver = new ChromeDriver();
+    js = (JavascriptExecutor) driver;
+    vars = new HashMap<String, Object>();
+  }
+  @After
+  public void tearDown() {
+    driver.quit();
+  }
+  @Test
+  public void exercise2() {
+    driver.get("http://automationpractice.com/index.php");
+    driver.manage().window().setSize(new Dimension(968, 1040));
+    driver.findElement(By.cssSelector("#homefeatured > .ajax_block_product:nth-child(1) .button:nth-child(1) > span")).click();
+    driver.findElement(By.cssSelector(".button-medium > span")).click();
+    
+    WebElement msg = driver.findElement(By.cssSelector("h2:nth-child(2)"));
+    String text=msg.getText();
+    String expectedText = "Product successfully added to your shopping cart";
+    Assert.assertEquals(text,expectedText);
+    
+//    driver.findElement(By.cssSelector(".standard-checkout > span"));
+//    driver.findElement(By.id("email")).click();
+//    driver.findElement(By.id("email")).sendKeys("user@hotmail.com");
+//    driver.findElement(By.id("passwd")).sendKeys("passord");
+//    driver.findElement(By.cssSelector("#login_form .submit")).click();
+//    driver.findElement(By.cssSelector("#SubmitLogin > span")).click();
+  }
+}

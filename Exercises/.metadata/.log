@@ -1,0 +1,2230 @@
+!SESSION 2019-09-20 11:09:12.686 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-20 11:09:20.246
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-20 11:09:21.103
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-20 11:09:21.103
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@478fe415,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@197180a5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-20 11:09:26.002
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2019-09-20 11:09:58.124
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:30.903
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:30.908
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1da2219c[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:30.912
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:30.942
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.101
+!MESSAGE Boot LS startup time from start to initialized: 2180ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.139
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIWJSEPYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.144
+!MESSAGE subscribing to classpath changes: sts4.classpath.TIWJSEPY isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.151
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.158
+!MESSAGE subsribers = {sts4.classpath.TIWJSEPY=Send Classpath Notifications(828)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.164
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.170
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.175
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.179
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.183
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIWJSEPY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.188
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.197
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.203
+!MESSAGE buffering callback sts4.classpath.TIWJSEPY Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.207
+!MESSAGE executing callback sts4.classpath.TIWJSEPY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:33.233
+!MESSAGE executing callback sts4.classpath.TIWJSEPY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.332
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIWJSEPY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.345
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TIWJSEPY
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.354
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.361
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIWJSEPY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.457
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.478
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1da2219c[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:53.486
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.413
+!MESSAGE Boot LS startup time from start to initialized: 1921ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.441
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lHCrUHbOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.451
+!MESSAGE subscribing to classpath changes: sts4.classpath.lHCrUHbO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.455
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.459
+!MESSAGE subsribers = {sts4.classpath.lHCrUHbO=Send Classpath Notifications(838)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.464
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.469
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.473
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.477
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.480
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.484
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lHCrUHbO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.488
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.494
+!MESSAGE buffering callback sts4.classpath.lHCrUHbO Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.498
+!MESSAGE executing callback sts4.classpath.lHCrUHbO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 11:10:55.522
+!MESSAGE executing callback sts4.classpath.lHCrUHbO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:11.955
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lHCrUHbO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:11.963
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lHCrUHbO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:11.970
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:11.975
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lHCrUHbO => OK
+!SESSION 2019-09-20 12:04:44.609 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-20 12:04:48.564
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-20 12:04:49.157
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-20 12:04:49.157
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b58d678,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@535a6697,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:54.567
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:54.715
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3726fc3b[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:54.722
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:54.977
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-20 12:04:55.370
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.191
+!MESSAGE Boot LS startup time from start to initialized: 3425ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.221
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HQxmslVOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.227
+!MESSAGE subscribing to classpath changes: sts4.classpath.HQxmslVO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.234
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.240
+!MESSAGE subsribers = {sts4.classpath.HQxmslVO=Send Classpath Notifications(83)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.245
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.253
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.257
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.261
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.265
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HQxmslVO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.269
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.279
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.285
+!MESSAGE buffering callback sts4.classpath.HQxmslVO Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.289
+!MESSAGE executing callback sts4.classpath.HQxmslVO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:04:58.312
+!MESSAGE executing callback sts4.classpath.HQxmslVO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:01.397
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQxmslVO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:01.421
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HQxmslVO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:01.444
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:01.452
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HQxmslVO => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-09-20 12:07:01.783
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2019-09-20 12:07:02.787 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/BAbrh/OneDrive/Desktop/Exercises/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-20 12:07:05.010
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-20 12:07:05.579
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-20 12:07:05.579
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3436d3d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f40568e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:11.165
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:11.295
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2a3251ad[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:11.302
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:11.572
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-20 12:07:11.669
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.053
+!MESSAGE Boot LS startup time from start to initialized: 3631ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.088
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ShHeoOCOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.093
+!MESSAGE subscribing to classpath changes: sts4.classpath.ShHeoOCO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.102
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.108
+!MESSAGE subsribers = {sts4.classpath.ShHeoOCO=Send Classpath Notifications(83)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.114
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.123
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.128
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.132
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ShHeoOCO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.154
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.160
+!MESSAGE buffering callback sts4.classpath.ShHeoOCO Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.165
+!MESSAGE executing callback sts4.classpath.ShHeoOCO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 12:07:15.194
+!MESSAGE executing callback sts4.classpath.ShHeoOCO SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-20 12:16:46.838
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 17:15:47.682
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ShHeoOCO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 17:15:47.758
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ShHeoOCO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 17:15:47.773
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-20 17:15:47.826
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ShHeoOCO => OK
+!SESSION 2019-09-21 13:41:35.959 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-21 13:42:54.154
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-21 13:42:56.024
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-21 13:42:56.025
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ff8e36d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@116b0b32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:22.310
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:22.317
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3a44ebd5[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:22.335
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:23.005
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-21 13:43:23.578
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.189
+!MESSAGE Boot LS startup time from start to initialized: 15836ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.235
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BxkFYvUcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.240
+!MESSAGE subscribing to classpath changes: sts4.classpath.BxkFYvUc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.246
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.252
+!MESSAGE subsribers = {sts4.classpath.BxkFYvUc=Send Classpath Notifications(787)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.256
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.282
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.290
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.294
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.298
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BxkFYvUc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.312
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.318
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.322
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 13:43:38.353
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.720
+!MESSAGE Preparing classpath changed notification Framework
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.730
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.736
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.744
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Framework false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.752
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:04:50.769
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-21 23:04:56.075
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:05:01.159
+!MESSAGE Preparing classpath changed notification Framework
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:05:01.169
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:05:01.178
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Framework true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:05:01.185
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:05:01.194
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-21 23:06:06.212
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Directory framework already exists - please run from a clean directory
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:245)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:844)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:790)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2019-09-21 23:06:06.400
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Directory framework already exists - please run from a clean directory
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:245)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:844)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:792)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:790)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.289
+!MESSAGE Preparing classpath changed notification Framework
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.314
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.325
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.331
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Framework false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.349
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:06:32.363
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:07:12.987
+!MESSAGE Preparing classpath changed notification Framework
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:07:12.999
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:07:13.005
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Framework true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:07:13.013
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:07:13.029
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-21 23:07:13.279
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-21 23:07:13.295
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.596
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.617
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.626
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Tests false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.632
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-21 23:12:20.644
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-21 23:12:20.774
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-21 23:12:20.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.071
+!MESSAGE Preparing classpath changed notification Demo Site
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.076
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.083
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.089
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Demo Site false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.094
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:15.107
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:33.785
+!MESSAGE Preparing classpath changed notification Demo Site
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:33.795
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:33.801
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc Demo Site true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:33.808
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:33.816
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.335
+!MESSAGE Preparing classpath changed notification DemoSite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.341
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.347
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.352
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc DemoSite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.357
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:58:56.366
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:58:56.502
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:58:56.512
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.545
+!MESSAGE Preparing classpath changed notification ShoppingWebsite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.551
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.560
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.566
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc ShoppingWebsite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.572
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:20.582
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:59:20.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:59:20.734
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.879
+!MESSAGE Preparing classpath changed notification PHPTravels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.886
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.892
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.896
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc PHPTravels false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.902
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 00:59:49.910
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:59:50.072
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 00:59:50.078
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.379
+!MESSAGE Preparing classpath changed notification FTSE100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.391
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.394
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc FTSE100 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.399
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:06.405
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:00:06.560
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:00:06.568
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.934
+!MESSAGE Preparing classpath changed notification MercuryTours
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.939
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.944
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.949
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc MercuryTours false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.954
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:27.971
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:54.248
+!MESSAGE Preparing classpath changed notification MercuryTours
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:54.254
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:54.263
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc MercuryTours true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:54.270
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:00:54.279
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core 4 964 2019-09-22 01:01:24.415
+!MESSAGE Cannot nest 'MercuryTours/src/main/resources' inside 'MercuryTours/src'. To enable the nesting exclude 'main/' from 'MercuryTours/src'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.427
+!MESSAGE Preparing classpath changed notification MercuryTours
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.442
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.453
+!MESSAGE buffering callback sts4.classpath.BxkFYvUc MercuryTours false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.457
+!MESSAGE executing callback sts4.classpath.BxkFYvUc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:01:24.465
+!MESSAGE executing callback sts4.classpath.BxkFYvUc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:01:24.639
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:01:24.650
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:08:52.893
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:08:52.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:09:07.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:09:07.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:17:18.806
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:17:18.820
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:17:32.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:17:32.347
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:22:11.067
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:22:11.077
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:22:22.466
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:22:22.478
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:02.185
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:02.197
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:13.444
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:13.459
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:34.274
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:26:34.283
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:27:01.562
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:27:01.576
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:03.806
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:03.818
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:36.249
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:36.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:51.758
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 01:30:51.770
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:32:34.340
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BxkFYvUc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:32:34.346
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BxkFYvUc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:32:34.360
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 01:32:34.373
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BxkFYvUc => OK
+!SESSION 2019-09-22 15:04:39.633 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-22 15:04:57.364
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-22 15:04:59.224
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-22 15:04:59.224
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f22fd5d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26d445e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:27.220
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:27.237
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@192f807[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:27.264
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:27.684
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-22 15:05:27.977
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.451
+!MESSAGE Boot LS startup time from start to initialized: 18172ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.520
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lOMQGDtnisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.531
+!MESSAGE subscribing to classpath changes: sts4.classpath.lOMQGDtn isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.540
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.548
+!MESSAGE subsribers = {sts4.classpath.lOMQGDtn=Send Classpath Notifications(790)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.554
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.568
+!MESSAGE project Tests ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.574
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.580
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.586
+!MESSAGE project DemoSite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.594
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.598
+!MESSAGE project FTSE100 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.603
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.609
+!MESSAGE project Frame ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.614
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn Tests false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.619
+!MESSAGE project MercuryTours ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.625
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.629
+!MESSAGE project PHPTravels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.634
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.639
+!MESSAGE project ShoppingWebsite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.644
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.648
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.653
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.659
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lOMQGDtn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.664
+!MESSAGE Preparing classpath changed notification DemoSite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.670
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.675
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.680
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn DemoSite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.686
+!MESSAGE Preparing classpath changed notification FTSE100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.692
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.698
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.703
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn FTSE100 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.708
+!MESSAGE Preparing classpath changed notification Frame
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.719
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.725
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn Frame false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.730
+!MESSAGE Preparing classpath changed notification MercuryTours
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.736
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.743
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.749
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn MercuryTours false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.756
+!MESSAGE Preparing classpath changed notification PHPTravels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.762
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.767
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.773
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn PHPTravels false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.779
+!MESSAGE Preparing classpath changed notification ShoppingWebsite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.784
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.798
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.808
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn ShoppingWebsite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.819
+!MESSAGE executing callback sts4.classpath.lOMQGDtn 8 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:05:45.870
+!MESSAGE executing callback sts4.classpath.lOMQGDtn SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-22 15:47:07.526
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.051
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.119
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.148
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lOMQGDtn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.156
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn Tests true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.163
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lOMQGDtn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.169
+!MESSAGE Preparing classpath changed notification YoutubeTutorial
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.174
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.181
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.188
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lOMQGDtn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.198
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.207
+!MESSAGE buffering callback sts4.classpath.lOMQGDtn YoutubeTutorial false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.235
+!MESSAGE executing callback sts4.classpath.lOMQGDtn 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.308
+!MESSAGE executing callback sts4.classpath.lOMQGDtn FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.324
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.335
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@192f807[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-09-22 15:47:36.352
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.lOMQGDtn'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 15:47:36.367
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 15:47:44.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 15:47:44.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:09:59.276
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:09:59.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:45.261
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:45.267
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@192f807[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:45.273
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-09-22 16:10:47.240
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:480)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:787)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:176)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1603)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:513)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$2.run(ConnectDocumentToLanguageServerSetupParticipant.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.316
+!MESSAGE Boot LS startup time from start to initialized: 2037ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.353
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.blGOEiQjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.360
+!MESSAGE subscribing to classpath changes: sts4.classpath.blGOEiQj isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.368
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.374
+!MESSAGE subsribers = {sts4.classpath.blGOEiQj=Send Classpath Notifications(885)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.380
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.385
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.389
+!MESSAGE project Tests ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.394
+!MESSAGE Preparing classpath changed notification Exercises
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.398
+!MESSAGE project YoutubeTutorial ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.403
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.407
+!MESSAGE project DemoSite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.411
+!MESSAGE classpath=56 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.415
+!MESSAGE project FTSE100 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.419
+!MESSAGE buffering callback sts4.classpath.blGOEiQj Exercises false 56
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.423
+!MESSAGE project Frame ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.428
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.432
+!MESSAGE project MercuryTours ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.441
+!MESSAGE project PHPTravels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.445
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.449
+!MESSAGE project ShoppingWebsite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.454
+!MESSAGE buffering callback sts4.classpath.blGOEiQj Tests false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.458
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.462
+!MESSAGE Preparing classpath changed notification YoutubeTutorial
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.467
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.blGOEiQj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.471
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.476
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.480
+!MESSAGE buffering callback sts4.classpath.blGOEiQj YoutubeTutorial false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.485
+!MESSAGE Preparing classpath changed notification DemoSite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.489
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.493
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.498
+!MESSAGE buffering callback sts4.classpath.blGOEiQj DemoSite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.502
+!MESSAGE Preparing classpath changed notification FTSE100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.506
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.510
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.515
+!MESSAGE buffering callback sts4.classpath.blGOEiQj FTSE100 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.519
+!MESSAGE Preparing classpath changed notification Frame
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.524
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.529
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.533
+!MESSAGE buffering callback sts4.classpath.blGOEiQj Frame false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.537
+!MESSAGE Preparing classpath changed notification MercuryTours
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.541
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.546
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.551
+!MESSAGE buffering callback sts4.classpath.blGOEiQj MercuryTours false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.555
+!MESSAGE Preparing classpath changed notification PHPTravels
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.560
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.565
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.569
+!MESSAGE buffering callback sts4.classpath.blGOEiQj PHPTravels false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.574
+!MESSAGE Preparing classpath changed notification ShoppingWebsite
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.579
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.583
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.588
+!MESSAGE buffering callback sts4.classpath.blGOEiQj ShoppingWebsite false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.592
+!MESSAGE executing callback sts4.classpath.blGOEiQj 9 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:47.657
+!MESSAGE executing callback sts4.classpath.blGOEiQj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:52.843
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.blGOEiQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:52.850
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.blGOEiQj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:52.857
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:10:52.882
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.blGOEiQj => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.205
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DemoSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.206
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.213
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DemoSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.213
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.227
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DemoSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.227
+!MESSAGE Launch configuration DemoSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.234
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration FTSE100 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.234
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.247
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration FTSE100 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.247
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.261
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration FTSE100 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.261
+!MESSAGE Launch configuration FTSE100 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.269
+!MESSAGE Launch configuration q1 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration q1 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.269
+!MESSAGE Launch configuration q1 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.277
+!MESSAGE Launch configuration q1 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration q1 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.277
+!MESSAGE Launch configuration q1 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.296
+!MESSAGE Launch configuration q1 references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration q1 references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.296
+!MESSAGE Launch configuration q1 references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.302
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ShoppingSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.303
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.308
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ShoppingSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.309
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.322
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ShoppingSite references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.322
+!MESSAGE Launch configuration ShoppingSite references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.329
+!MESSAGE Launch configuration webdriver references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration webdriver references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.329
+!MESSAGE Launch configuration webdriver references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.336
+!MESSAGE Launch configuration webdriver references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration webdriver references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.337
+!MESSAGE Launch configuration webdriver references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-22 16:10:54.349
+!MESSAGE Launch configuration webdriver references closed project Exercises
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration webdriver references closed project Exercises
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:825)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:989)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:147)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-09-22 16:10:54.349
+!MESSAGE Launch configuration webdriver references closed project Exercises
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:02.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:02.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:12.693
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:12.713
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:17.664
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:17.693
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:18.802
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 16:11:18.819
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:17.123
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:17.130
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@192f807[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:17.136
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.923
+!MESSAGE Boot LS startup time from start to initialized: 1779ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.949
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oaYqrWdMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.955
+!MESSAGE subscribing to classpath changes: sts4.classpath.oaYqrWdM isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.962
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.968
+!MESSAGE subsribers = {sts4.classpath.oaYqrWdM=Send Classpath Notifications(910)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.973
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.979
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.984
+!MESSAGE project Exercises SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.988
+!MESSAGE project DemoSite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.993
+!MESSAGE project DemoSite SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:18.998
+!MESSAGE project FTSE100 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.003
+!MESSAGE project FTSE100 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.008
+!MESSAGE project Frame ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.012
+!MESSAGE Preparing classpath changed notification Frame
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.016
+!MESSAGE project MercuryTours ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.025
+!MESSAGE project MercuryTours SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.030
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.034
+!MESSAGE project PHPTravels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.038
+!MESSAGE buffering callback sts4.classpath.oaYqrWdM Frame false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.042
+!MESSAGE project PHPTravels SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.046
+!MESSAGE executing callback sts4.classpath.oaYqrWdM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.050
+!MESSAGE project ShoppingWebsite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.056
+!MESSAGE project ShoppingWebsite SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.062
+!MESSAGE project Tests ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.068
+!MESSAGE project YoutubeTutorial ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.074
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.079
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oaYqrWdM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.088
+!MESSAGE executing callback sts4.classpath.oaYqrWdM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.093
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.098
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.103
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.108
+!MESSAGE buffering callback sts4.classpath.oaYqrWdM Tests false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.113
+!MESSAGE Preparing classpath changed notification YoutubeTutorial
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.118
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.123
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.127
+!MESSAGE buffering callback sts4.classpath.oaYqrWdM YoutubeTutorial false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.133
+!MESSAGE executing callback sts4.classpath.oaYqrWdM 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-22 16:12:19.142
+!MESSAGE executing callback sts4.classpath.oaYqrWdM SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:06.279
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:06.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:18.863
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:18.882
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:39.445
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:39.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:51.738
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 21:49:51.763
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:31.679
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:31.706
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:34.566
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:34.584
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:50.012
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:50.029
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:58.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:37:58.528
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:38:20.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:38:20.807
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:39:14.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-22 22:39:14.782
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2019-09-23 10:26:52.398 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=11.0.3
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-23 10:27:04.398
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-23 10:27:11.692
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-23 10:27:13.880
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-23 10:27:13.880
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@308be1a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32cde414,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-23 10:27:42.079
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\BAbrh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:27:42.143
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:27:42.241
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1b7c1c6f[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=527)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:27:42.295
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:27:42.618
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.255
+!MESSAGE Boot LS startup time from start to initialized: 17939ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.298
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YtvtNYCOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.302
+!MESSAGE subscribing to classpath changes: sts4.classpath.YtvtNYCO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.308
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.314
+!MESSAGE subsribers = {sts4.classpath.YtvtNYCO=Send Classpath Notifications(795)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.318
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.325
+!MESSAGE project YoutubeTutorial ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.330
+!MESSAGE project DemoSite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.334
+!MESSAGE Preparing classpath changed notification YoutubeTutorial
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.338
+!MESSAGE project DemoSite SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.345
+!MESSAGE project Exercises ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.349
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.353
+!MESSAGE project Exercises SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.357
+!MESSAGE buffering callback sts4.classpath.YtvtNYCO YoutubeTutorial false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.361
+!MESSAGE project FTSE100 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.365
+!MESSAGE executing callback sts4.classpath.YtvtNYCO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.368
+!MESSAGE project FTSE100 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.373
+!MESSAGE project Frame ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.378
+!MESSAGE project MercuryTours ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.384
+!MESSAGE project MercuryTours SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.388
+!MESSAGE project PHPTravels ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.393
+!MESSAGE project PHPTravels SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.398
+!MESSAGE project ShoppingWebsite ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.403
+!MESSAGE project ShoppingWebsite SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.407
+!MESSAGE project Tests ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.412
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.417
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YtvtNYCO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.428
+!MESSAGE executing callback sts4.classpath.YtvtNYCO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.433
+!MESSAGE Preparing classpath changed notification Frame
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.439
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.445
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.451
+!MESSAGE buffering callback sts4.classpath.YtvtNYCO Frame false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.455
+!MESSAGE Preparing classpath changed notification Tests
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.460
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.465
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.469
+!MESSAGE buffering callback sts4.classpath.YtvtNYCO Tests false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.474
+!MESSAGE executing callback sts4.classpath.YtvtNYCO 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:28:00.483
+!MESSAGE executing callback sts4.classpath.YtvtNYCO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:36:12.531
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YtvtNYCO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:36:12.551
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YtvtNYCO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:36:12.561
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-23 10:36:12.571
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YtvtNYCO => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-09-23 10:36:13.052
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

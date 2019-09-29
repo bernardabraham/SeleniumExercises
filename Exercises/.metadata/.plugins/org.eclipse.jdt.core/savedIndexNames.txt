@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\BAbrh\OneDrive\Desktop\Exercises\.metadata\.plugins\org.eclipse.jdt.core
+117774581.index
+928596390.index
+2023067131.index
+3742190952.index
